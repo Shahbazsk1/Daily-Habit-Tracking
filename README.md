@@ -7,12 +7,12 @@
   <li><strong>datetime:</strong>	To get the current date in YYYYMMDD format required by the API.</li>
 </ul>
 <h3>Pixela API Endpoints Used</h3>
-<p><strong>Operation</strong>	<strong>Method</strong>	<strong>Endpoint</strong></p>
-<p>Create User	POST	https://pixe.la/v1/users</p>
-<p>Create Graph	POST	https://pixe.la/v1/users/<USERNAME>/graphs</p>
-<p>Add Pixel (Entry)	POST	https://pixe.la/v1/users/<USERNAME>/graphs/<GRAPH_ID></p>
-<p>Update Pixel	PUT	https://pixe.la/v1/users/<USERNAME>/graphs/<GRAPH_ID>/<DATE></p>
-<p>Delete Pixel	DELETE	https://pixe.la/v1/users/<USERNAME>/graphs/<GRAPH_ID>/<DATE></p>
+<p><strong>Operation</strong>	   <strong>Method</strong>	   <strong>Endpoint</strong></p>
+<p>Create User	   POST	   https://pixe.la/v1/users</p>
+<p>Create Graph	   POST	   https://pixe.la/v1/users/<USERNAME>/graphs</p>
+<p>Add Pixel (Entry)	   POST	   https://pixe.la/v1/users/<USERNAME>/graphs/<GRAPH_ID></p>
+<p>Update Pixel	   PUT	   https://pixe.la/v1/users/<USERNAME>/graphs/<GRAPH_ID>/<DATE></p>
+<p>Delete Pixel	   DELETE	   https://pixe.la/v1/users/<USERNAME>/graphs/<GRAPH_ID>/<DATE></p>
 
 
 
