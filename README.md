@@ -43,41 +43,10 @@
     </tr>
   </tbody>
 </table>
-
-
-
-
-
-
-
-
-
-<p><strong>Operation</strong><strong>    Method</strong><strong>   Endpoint</strong></p>
-<p>Create User	   POST	   https://pixe.la/v1/users</p>
-<p>Create Graph	   POST	   https://pixe.la/v1/users/<USERNAME>/graphs</p>
-<p>Add Pixel (Entry)	   POST	   https://pixe.la/v1/users/<USERNAME>/graphs/<GRAPH_ID></p>
-<p>Update Pixel	   PUT	   https://pixe.la/v1/users/<USERNAME>/graphs/<GRAPH_ID>/<DATE></p>
-<p>Delete Pixel	   DELETE	   https://pixe.la/v1/users/<USERNAME>/graphs/<GRAPH_ID>/<DATE></p>
-
-
-
-
-
-
-
-Important Links
-✅ Pixela API Documentation: https://docs.pixe.la/
-
-📊 Graph Visualization Example:
-After creating the graph, you can visit your graph at:
-
-bash
-Copy
-Edit
-https://pixe.la/v1/users/<USERNAME>/graphs/<GRAPH_ID>.html
-For your case:
-
-bash
-Copy
-Edit
-https://pixe.la/v1/users/shahbaz123/graphs/graph1.html
+<h3>Important Links</h3>
+<ul>
+  <li><strong>✅ Pixela API Documentation:</strong> https://docs.pixe.la/</li>
+  <li>📊 Graph Visualization Example:</li>
+  <p>After creating the graph, you can visit your graph at:</p><br>  
+  <p>https://pixe.la/v1/users/<USERNAME>/graphs/<GRAPH_ID>.html</p>
+</ul>
