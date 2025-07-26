@@ -50,3 +50,13 @@
   <p>After creating the graph, you can visit your graph at:</p><br>  
   <p>https: //pixe.la/v1/users/"USERNAME"/graphs/"GRAPH_ID".html</p>
 </ul>
+<h3>✅ Step-by-Step: Set Up Pixela Project</h3>
+<p><strong>🔹 Step 1: Create a Pixela User Account</strong><br>
+  Use this endpoint:<br>
+  POST https://pixe.la/v1/users<br>
+</p>
+<<p><strong>🔹 Step 2: Create a Graph</strong><br>
+  Use this endpoint:<br>
+  POST https://pixe.la/v1/users/<USERNAME>/graphs
+</p>
+
