@@ -7,15 +7,42 @@
   <li><strong>datetime:</strong>	To get the current date in YYYYMMDD format required by the API.</li>
 </ul>
 <h3>Pixela API Endpoints Used</h3>
-<p>
-| Operation           | Method   | Endpoint                                                       |<br>
-| --------------------| -------- | -------------------------------------------------------------- |<br>
-| Create User         | `POST`   | `https://pixe.la/v1/users`                                     |<br>
-| Create Graph        | `POST`   | `https://pixe.la/v1/users/<USERNAME>/graphs`                   |<br>
-| Add Pixel (Entry)   | `POST`   | `https://pixe.la/v1/users/<USERNAME>/graphs/<GRAPH_ID>`        |<br>
-| Update Pixel        | `PUT`    | `https://pixe.la/v1/users/<USERNAME>/graphs/<GRAPH_ID>/<DATE>` |<br>
-| Delete Pixel        | `DELETE` | `https://pixe.la/v1/users/<USERNAME>/graphs/<GRAPH_ID>/<DATE>` | <br>
-</p>
+<table>
+  <thead>
+    <tr>
+      <th>Operation</th>
+      <th>Method</th>
+      <th>Endpoint</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Create User</td>
+      <td><code>POST</code></td>
+      <td><code>https://pixe.la/v1/users</code></td>
+    </tr>
+    <tr>
+      <td>Create Graph</td>
+      <td><code>POST</code></td>
+      <td><code>https://pixe.la/v1/users/&lt;USERNAME&gt;/graphs</code></td>
+    </tr>
+    <tr>
+      <td>Add Pixel (Entry)</td>
+      <td><code>POST</code></td>
+      <td><code>https://pixe.la/v1/users/&lt;USERNAME&gt;/graphs/&lt;GRAPH_ID&gt;</code></td>
+    </tr>
+    <tr>
+      <td>Update Pixel</td>
+      <td><code>PUT</code></td>
+      <td><code>https://pixe.la/v1/users/&lt;USERNAME&gt;/graphs/&lt;GRAPH_ID&gt;/&lt;DATE&gt;</code></td>
+    </tr>
+    <tr>
+      <td>Delete Pixel</td>
+      <td><code>DELETE</code></td>
+      <td><code>https://pixe.la/v1/users/&lt;USERNAME&gt;/graphs/&lt;GRAPH_ID&gt;/&lt;DATE&gt;</code></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
