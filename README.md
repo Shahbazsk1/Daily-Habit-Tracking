@@ -48,5 +48,5 @@
   <li><strong>✅ Pixela API Documentation:</strong> https://docs.pixe.la/</li>
   <li>📊 Graph Visualization Example:</li>
   <p>After creating the graph, you can visit your graph at:</p><br>  
-  <p>https://pixe.la/v1/users/<USERNAME>/graphs/<GRAPH_ID>.html</p>
+  <p>https: //pixe.la/v1/users/<USERNAME>/graphs/<GRAPH_ID>.html</p>
 </ul>
