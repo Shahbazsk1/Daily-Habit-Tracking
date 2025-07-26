@@ -2,9 +2,9 @@ from datetime import datetime
 
 import requests
 
-USERNAME = "shahbaz123"
-TOKEN = "hdtrkfgwesbcjfuegrkf"
-GRAPH_ID = "graph1"
+USERNAME = "Enter your pixela username"
+TOKEN = "create Your Own Pass (12-24 words)"
+GRAPH_ID = "Enter your pixela graph Id"
 
 pixela_endpoint = "https://pixe.la/v1/users"
 
