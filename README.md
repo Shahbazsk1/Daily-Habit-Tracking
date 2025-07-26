@@ -55,7 +55,7 @@
   Use this endpoint:<br>
   POST https://pixe.la/v1/users<br>
 </p>
-<<p><strong>🔹 Step 2: Create a Graph</strong><br>
+<p><strong>🔹 Step 2: Create a Graph</strong><br>
   Use this endpoint:<br>
   POST https://pixe.la/v1/users/<USERNAME>/graphs
 </p>
